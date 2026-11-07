@@ -3,7 +3,7 @@ title: "研究室の面談調整を Discord のボタンを押すだけにした
 emoji: "📮"
 type: "tech"
 topics: ["discord", "cloudrun", "googleappsscript", "firestore", "python"]
-published: false
+published: true
 ---
 
 ## はじめに
@@ -237,9 +237,3 @@ return (
 bot を入れてからは、メールを確認してチャットで聞いて回る必要がなくなり、ボタンを押すだけで面談の日時が決まるようになりました。
 
 動くのはフォームが送信されたときとボタンが押されたときだけで、常駐する bot もサーバーも置かずに済みました。
-
-## 参考
-
-- [Receiving and Responding to Interactions（Discord Developer Docs）](https://docs.discord.com/developers/interactions/receiving-and-responding)
-- [Billing settings for services（Cloud Run のドキュメント）](https://docs.cloud.google.com/run/docs/configuring/billing-settings)
-

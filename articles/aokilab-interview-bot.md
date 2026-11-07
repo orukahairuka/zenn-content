@@ -242,4 +242,3 @@ bot を入れてからは、メールを確認してチャットで聞いて回�
 
 - [Receiving and Responding to Interactions（Discord Developer Docs）](https://docs.discord.com/developers/interactions/receiving-and-responding)
 - [Billing settings for services（Cloud Run のドキュメント）](https://docs.cloud.google.com/run/docs/configuring/billing-settings)
-

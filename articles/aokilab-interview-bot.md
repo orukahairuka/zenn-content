@@ -94,7 +94,7 @@ Discord の bot は Gateway に WebSocket でつなぎっぱなしにするイ�
 
 ### 1. 署名の検証
 
-Discord からのリクエストには Ed25519 の署名が付いていて、検証に通らないリクエストは 401 で返します。URL を登録するときにも Discord がわざと不正な署名のリクエストを送ってきて、正しく拒否するかを確かめられます。
+Discord からのリクエストには、本当に Discord から届いたものかを確かめるための署名が付いています。bot は Developer Portal に表示される Public Key で署名を確かめ、通らないリクエストは 401 で返します。URL を登録するときにも Discord がわざと不正な署名のリクエストを送ってきて、正しく拒否するかを確かめられます。
 
 ```python:main.py
 from nacl.exceptions import BadSignatureError

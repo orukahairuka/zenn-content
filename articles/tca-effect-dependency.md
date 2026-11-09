@@ -3,7 +3,7 @@ title: "TCA の Effect と Dependency で、保存処理を Reducer から切り
 emoji: "💾"
 type: "tech"
 topics: ["swift", "swiftui", "tca", "ios"]
-published: false
+published: true
 ---
 
 ## はじめに
